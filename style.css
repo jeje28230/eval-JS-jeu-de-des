@@ -1,6 +1,21 @@
 body {
-    height: auto;
-    width: auto;
-    background-color: aqua;
+    height: 50%;
+    width: 50%;
+    background-color: lightgray;
     font-family: lato;
+}
+
+#P1 {
+    display: flex;
+    justify-content: left;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#P2 {
+    display: flex;
+    justify-content: right;
 }
